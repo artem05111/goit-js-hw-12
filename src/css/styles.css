@@ -57,7 +57,6 @@ li {
 .gallery {
   display: flex;
   width: 1128px;
-  padding-bottom: 24px;
   margin: 48px auto;
   justify-content: center;
   flex-wrap: wrap;
@@ -87,9 +86,21 @@ li {
   text-align: center;
   font-size: 13px;
 }
+.btn-load-more {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  background: #4e75ff;
+}
+.btn-load-more:hover,
+.btn-load-more:focus {
+  background: #6c8cff;
+}
 /*====================================/gallery=========================*/
-жовтень 12
-
 /*====================================loader========================*/
 .loader {
   margin: 0 auto;
